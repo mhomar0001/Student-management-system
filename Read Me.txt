@@ -1,0 +1,7 @@
+1. Install xampp v3.2.3 or upper.
+2. Go xampp > config > autostars of module > Check "Apache" and "MySQL" and click save and close it.
+3. Go xampp > Action > click start of "Apache" and "MySQL" and close it. 
+4. Copy MinProject, MinProjectDatabase folders and index.php file (if already index.php file is present in htdoc folder then no need to copy if or replace it) to Local Disk > xampp > htdoc.
+5. Go Browser > type on url "localhost/phpmyadmin" > Databade > create database > enter database name (same name as writen in the dbconnection.php file in admin folder) > click create.
+6. Go Browser > type on url "localhost/phpmyadmin" > database(from the left side) > import > file to import > browse > Local disk > xampp > htdoc > MiniProjectDatabase > mini_project.sql > Go.
+7. Go Browser > type on url "localhost/MiniProject". (Same name as in the htdoc folder that has php files).
